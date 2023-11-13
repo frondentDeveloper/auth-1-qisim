@@ -1,0 +1,37 @@
+
+.App-header {
+  background-color: #f4f4f4f4;
+  /* background-image: url("./images/bac3.jpg");
+  background-size: 100%; */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+label{
+  color: black;
+}
+.main_box{
+  backdrop-filter: blur(10px);
+  background: white;
+  box-shadow: 2px 3px 23px 0px rgba(9, 155, 234, 0.2);
+  background-repeat: no-repeat;
+  /* background-color: white; */
+  padding: 40px !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  width: 50%;
+  height: auto;
+  /* border: 1px solid; */
+}
+Input{
+  width: 450px !important;
+}
+.passwordInput{
+  width: 450px !important;
+}
